@@ -1,8 +1,8 @@
 class Eternalmac < Formula
   desc "Turn a Mac Mini into a personal devserver"
   homepage "https://github.com/eternalMac/eternalMac"
-  url "https://github.com/eternalMac/eternalMac/releases/download/v0.1.1/eternalmac-0.1.1-aarch64-apple-darwin.tar.gz"
-  sha256 "e3875c2960ec3b25d2ee5df8cc84eb17b5e6cc5f6f169f2383a640b11835107b"
+  url "https://github.com/eternalMac/eternalMac/releases/download/v0.1.2/eternalmac-0.1.2-aarch64-apple-darwin.tar.gz"
+  sha256 "849d43d16a533c1b27159ea9ed3ec5d219d9e5af4721e2006bb3a87ddc78200d"
   license "Apache-2.0"
 
   depends_on arch: :arm64
@@ -23,6 +23,8 @@ class Eternalmac < Formula
 
       Setup may prompt for role-specific permissions and can install the
       Tailscale cask if it is missing.
+      Server setup may ask for your macOS password to start Eternal Terminal
+      through Homebrew's root service.
     EOS
   end
 
