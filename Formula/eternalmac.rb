@@ -1,8 +1,8 @@
 class Eternalmac < Formula
   desc "Turn a Mac Mini into a personal devserver"
   homepage "https://github.com/eternalMac/eternalMac"
-  url "https://github.com/eternalMac/eternalMac/releases/download/v0.1.2/eternalmac-0.1.2-aarch64-apple-darwin.tar.gz"
-  sha256 "849d43d16a533c1b27159ea9ed3ec5d219d9e5af4721e2006bb3a87ddc78200d"
+  url "https://github.com/eternalMac/eternalMac/releases/download/v0.2.0/eternalmac-0.2.0-aarch64-apple-darwin.tar.gz"
+  sha256 "0bbe0460c2bf1653e07be3606b2499e12b7e751944e5c062c308a2e83d3013a5"
   license "Apache-2.0"
 
   depends_on arch: :arm64
